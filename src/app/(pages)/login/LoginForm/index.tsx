@@ -36,7 +36,8 @@ const LoginForm: React.FC = () => {
       try {
         await login(data)
         if (redirect?.current) router.push(redirect.current as string)
-        else router.push('/account')
+        else router.push('/')
+        window.location.href = '/'
       } catch (_) {
         setError('There was an error with the credentials provided. Please try again.')
       }
@@ -75,7 +76,7 @@ const LoginForm: React.FC = () => {
         disabled={isLoading}
         className={classes.submit}
       />
-      <div>
+      <div className={classes.link}>
         <Link href={`/create-account${allParams}`}>Create an account</Link>
         <br />
         <Link href={`/recover-password${allParams}`}>Recover your password</Link>

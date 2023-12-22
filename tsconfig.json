@@ -24,7 +24,9 @@
       }
     ],
     "paths": {
-      "react": ["./node_modules/@types/react"],
+      "react": [
+        "./node_modules/@types/react"
+      ]
     }
   },
   "include": [
@@ -38,5 +40,8 @@
   "ts-node": {
     "transpileOnly": true,
     "swc": true
+  },
+  "import/extensions": {
+    "ts": "always"
   }
 }
