@@ -1493,6 +1493,13 @@
   resolved "https://registry.yarnpkg.com/@payloadcms/eslint-config/-/eslint-config-0.0.1.tgz#4324702ddef6c773b3f3033795a13e6b50c95a92"
   integrity sha512-Il59+0C4E/bI6uM2hont3I+oABWkJZbfbItubje5SGMrXkymUq8jT/UZRk0eCt918bB7gihxDXx8guFnR/aNIw==
 
+"@payloadcms/plugin-cloud-storage@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@payloadcms/plugin-cloud-storage/-/plugin-cloud-storage-1.1.1.tgz#823d0d8316ba11d2b212eec0778f6f6d282a8c0f"
+  integrity sha512-WFqfZcT7R1LD+FfKKKYNsJPDRE+0VlYEMxzGuPKeUQn9w9sqTy2UD01YCEl0Zcyuq8fD9mRUjeLitSo1aAUimQ==
+  dependencies:
+    range-parser "^1.2.1"
+
 "@payloadcms/plugin-cloud@^2.0.0":
   version "2.2.6"
   resolved "https://registry.yarnpkg.com/@payloadcms/plugin-cloud/-/plugin-cloud-2.2.6.tgz#2d134c70dff52354a5e2ba19a3171b040837e04d"

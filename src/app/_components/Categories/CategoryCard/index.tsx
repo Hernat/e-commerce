@@ -17,8 +17,8 @@ const CategoryCard = ({ category }: CategoryCardProps) => {
   return (
     <Link
       href="/products"
-      className={classes.card}
       style={{ backgroundImage: `url(${media.url})` }}
+      className={classes.card}
       onClick={() => setCategoryFilters([category.id])}
     >
       <p className={classes.title}> {category.title} </p>
